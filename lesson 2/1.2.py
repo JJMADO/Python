@@ -1,0 +1,5 @@
+f = open("1.txt", "w", encoding="utf-8")
+f.writelines("coffee")
+f.writelines("\n")
+f.write("еда")
+f.close()
